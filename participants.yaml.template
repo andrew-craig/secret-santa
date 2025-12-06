@@ -1,0 +1,30 @@
+# Secret Santa Participants Configuration
+#
+# Copy this file to 'participants.yaml' and customize it with your participants.
+# The participants.yaml file is gitignored to keep your participant list private.
+#
+# Format:
+# participants:
+#   - Simple participant without a partner
+#   - Name:
+#       partner: PartnerName
+#
+# Notes:
+# - Partners will not be assigned to each other
+# - Both partners must be listed in the participants
+# - You can mix simple participants (strings) and participants with partners (objects)
+
+participants:
+  # Example participants with partners
+  - Alice:
+      partner: Bob
+  - Bob:
+      partner: Alice
+  - Charlie:
+      partner: Diana
+  - Diana:
+      partner: Charlie
+
+  # Example participants without partners
+  - Eve
+  - Frank
